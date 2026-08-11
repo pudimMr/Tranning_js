@@ -1,0 +1,1 @@
+alert("hello world") // cria um alerta na tela 
