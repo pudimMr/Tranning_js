@@ -16,5 +16,11 @@ let tarefas = [
     }
 ];
 
-let terceiraTarefa = tarefas[2].description
-console.log(terceiraTarefa)
+//envia para servidor = stringfy, recebe de um servidor = parse
+
+const tarefasJSON = JSON.stringify(tarefas);//converte em JSON
+console.log(tarefasJSON)//deixou de ser um objeto
+
+const tarefasLIST = JSON.parse(tarefasJSON)
+console.log('')
+console.log(tarefasLIST)
