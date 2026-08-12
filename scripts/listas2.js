@@ -14,4 +14,6 @@ const sumOfAges =  ages.reduce(function(age, accumulator) {
     return accumulator + age
 },0);//accumulator começando em 0 como contador
 
-console.log(sumOfAges)
+console.log(sumOfAges);
+console.log(pares);
+console.log(multiplicaPorDois);
