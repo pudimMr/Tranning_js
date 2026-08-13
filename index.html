@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/dom.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="./scripts/poo.js"></script>
+    <header>
+        <div class="titulo">Meu site HTML</div>
+    </header>
+    <div class="main">
+        <form method="get">
+            <P id="paragrafo"><strong>FORMULÁRIO</strong></P>
+            <div class="campo">
+                <label for="nome"><strong>NOME</strong></label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="campo">
+                <label for="senha"><strong>SENHA</strong></label>
+                <input type="password" id="password" name="password"></div>
+                <button type="submit" class="btn" value="Submit">LOGIN</button>
+        </form>
+    </div>
 </body>
 </html>
