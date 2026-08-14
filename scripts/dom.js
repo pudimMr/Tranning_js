@@ -3,6 +3,21 @@
 // nomeTExt.textContent = 'PARTE'
 // console.log(nomeTExt);
 
-// const ALLlabels = document.querySelectorAll('label');
-// console.log(ALLlabels)
+
+const nomeSenha = document.querySelectorAll(".itens");
+console.log(nomeSenha);
+
+console.log(nomeSenha[1].remove())
+
+
+function showpass() {
+    let x = document.querySelector('#pass_word');
+    if (x.type === 'password') {
+        x.type = 'text'
+    }
+    else{
+        x.type = 'password'
+    }
+
+}
 

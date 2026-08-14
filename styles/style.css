@@ -53,3 +53,15 @@ input {
    
 
 }
+
+#showpass {
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+#CAXINHA {
+    width: 20px;
+    height: 20px;
+    margin: 0
+}
