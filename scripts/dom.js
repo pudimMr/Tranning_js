@@ -10,14 +10,15 @@ console.log(nomeSenha);
 console.log(nomeSenha[1].remove())
 
 
-function showpass() {
-    let x = document.querySelector('#pass_word');
-    if (x.type === 'password') {
-        x.type = 'text'
-    }
-    else{
-        x.type = 'password'
-    }
+// function showpass() {
+//     let x = document.querySelector('#pass_word');
+//     if (x.type === 'password') {
+//         x.type = 'text'
+//     }
+//     else{
+//         x.type = 'password'
+//     }
 
-}
+// }
 
+const logNome = document.querySelector()
